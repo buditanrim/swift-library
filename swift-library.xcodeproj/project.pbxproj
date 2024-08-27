@@ -16,6 +16,11 @@
 			path = "swift-library";
 			sourceTree = "<group>";
 		};
+		F8A7700F2C7D96A100B22DF9 /* git */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = git;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 		F8A76FEC2C7D93CB00B22DF9 = {
 			isa = PBXGroup;
 			children = (
+				F8A7700F2C7D96A100B22DF9 /* git */,
 				F8A76FF72C7D93CB00B22DF9 /* swift-library */,
 				F8A76FF62C7D93CB00B22DF9 /* Products */,
 			);
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				F8A76FF72C7D93CB00B22DF9 /* swift-library */,
+				F8A7700F2C7D96A100B22DF9 /* git */,
 			);
 			name = "swift-library";
 			packageProductDependencies = (
